@@ -1,0 +1,114 @@
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    color: transparent;
+}
+.slide-image {
+    width: 750rpx;
+    height: 300rpx;
+}
+
+.sub-title-wrapper {
+    box-sizing: border-box;
+    height: 80rpx;
+}
+
+.wx-icon-rect {
+    box-sizing: border-box;
+    width: 10rpx;
+    height: 40rpx;
+    margin: 20rpx 25rpx 0 30rpx;
+    background: #e64340;
+}
+
+.sub-item-title {
+    position: relative;
+    top: -6rpx;
+    font-family: "Source Han Sans CN";
+    font-weight: bold;
+    color: #888;
+}
+
+.item-wrapper {
+    box-sizing: border-box;
+    padding: 38rpx 30rpx 0;
+}
+
+.item-title {
+    font-family: "Source Han Sans CN";
+    color: #000;
+    font-size: 34rpx;
+}
+
+.item-content {
+    line-height: 40rpx;
+    margin: 16rpx 0 0 0;
+    color: #a9a9a9;
+    font-size: 26rpx;
+}
+
+.item-divider {
+    width: 100%;
+    margin-top: 26rpx;
+    border: 1rpx solid #eee;
+}
+
+.more-text {
+    margin-left: 30rpx;
+    font-size: 28rpx;
+    color: #a9a9a9;
+}
+
+.more-arrow {
+    margin-right: 30rpx;
+    margin-top: 8rpx;
+    float: right;
+    font-size: 28rpx;
+    color: #a9a9a9;
+}
+
+.seperator {
+    margin-top: 30rpx;
+}
+
+navigator {
+    padding-bottom: 14rpx;
+}
+
+.map-container {
+    width: 690rpx;
+    height: 500rpx;
+    overflow: hidden;
+    position: absolute;
+    top: 1000rpx;
+    bottom: 80px;
+    left: 30rpx;
+    right: 30rpx;
+}
+
+.map {
+    width: 100%;
+    height: 100%;
+}
+
+.map-text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    height: 80px;
+    background: #fff;
+    padding: 0 15px;
+}
+
+.map-content {
+    margin: 5px 0;
+    display: block;
+    font-size: 12px;
+}
+
+.h1 {
+    display: block;
+    margin: 15px 0;
+    font-size: 15px;
+}

@@ -1,0 +1,33 @@
+<scroll-view scroll-y style="height: 1288rpx;" scroll-top="{{scrollTop}}">
+    <!-- <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+            <swiper-item>
+                <image src="{{item}}" class="slide-image" />
+            </swiper-item>
+        </block>
+    </swiper> -->
+     <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+            <swiper-item>
+                <image src="{{item.url}}" data-id='{{item.id}}' class="slide-image" bindtap='swiperTap'/>
+            </swiper-item>
+        </block>
+    </swiper> 
+    <view class='sub-title-wrapper'>
+        <icon class="wx-icon-rect"></icon>
+        <text class='sub-item-title'>{{title}}</text>
+    </view>
+    <progress percent='0' stroke-width='2'></progress>
+    <block wx:for="{{content}}" wx:key="{{index}}">
+        <view class='item-wrapper' bindtap='changeToDetail' data-id="{{item['id']}}">
+            <view class='item-title' data-id="{{item['id']}}">{{item['title']}}</view>
+            <text class='item-content' data-id="{{item['id']}}">{{item['content']}}</text>
+            <view class="item-divider"></view>
+        </view>
+    </block>
+    <navigator url="list" open-type="navigate" hover-class="other-navigator-hover">
+        <text class='more-text'>{{more}}</text>
+        <text class='more-arrow'>></text>
+    </navigator>
+
+</scroll-view>

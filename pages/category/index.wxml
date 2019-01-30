@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="category-container">
+    <view wx:for="{{list}}" wx:for-item="item">
+        <view class="category-items clearfix" data-category="{{item.category}}" bindtap="bindViewTap">
+            <image src="{{item.imgUrl}}" mode="aspectFill" class='category-items-image' data-category="{{item.category}}"></image>
+            <view class='category-items-title' data-category="{{item.category}}">{{item.title}}</view>
+            <view class='category-items-desc' data-category="{{item.category}}">{{item.summary}}</view>
+        </view>
+    </view>
+</view>

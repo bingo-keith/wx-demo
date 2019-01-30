@@ -1,0 +1,32 @@
+/**index.wxss**/
+
+.category-container {
+    padding: 20rpx 30rpx;
+    width: 100%;
+    float: left;
+    font-family: "Source Han Sans CN";
+}
+
+.category-container .category-items {
+    margin-bottom: 60rpx;
+}
+
+.category-container .category-items .category-items-image {
+    width: 120rpx;
+    height: 120rpx;
+    margin-right: 20rpx;
+    float: left;
+}
+
+.category-container .category-items .category-items-title {
+    font-size: 34rpx;
+    width: 705rpx;
+    line-height: 40rpx;
+}
+
+.category-container .category-items .category-items-desc {
+    font-size: 26rpx;
+    color: #a9a9a9;
+    width: 705rpx;
+    line-height: 40rpx;
+}

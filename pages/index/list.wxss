@@ -1,0 +1,49 @@
+.slide-image {
+    width: 750rpx;
+    height: 300rpx;
+}
+
+.sub-title-wrapper {
+    box-sizing: border-box;
+    height: 80rpx;
+}
+
+.wx-icon-rect {
+    box-sizing: border-box;
+    width: 10rpx;
+    height: 40rpx;
+    margin: 20rpx 25rpx 0 30rpx;
+    background: #e64340;
+}
+
+.sub-title-title {
+    position: relative;
+    top: -6rpx;
+    font-family: "Source Han Sans CN";
+    font-weight: bold;
+    color: #888;
+}
+
+.item-wrapper {
+    box-sizing: border-box;
+    padding: 38rpx 30rpx 0;
+}
+
+.item-title {
+    font-family: "Source Han Sans CN";
+    color: #000;
+    font-size: 34rpx;
+}
+
+.item-content {
+    line-height: 40rpx;
+    margin: 16rpx 0 0 0;
+    color: #a9a9a9;
+    font-size: 26rpx;
+}
+
+.item-divider {
+    width: 100%;
+    margin-top: 26rpx;
+    border: 1rpx solid #eee;
+}

@@ -1,0 +1,53 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/category/index",
+    "pages/search/index",
+    "pages/index/list",
+    "pages/index/detail",
+    "pages/about/index"
+  ],
+  "window":{
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "科瑞兹曼",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#fff",
+    "navigationBarTitleStyle": "black",
+    "statusBarTextStyle": "black"
+  },
+  "tabBar":{
+    "color": "#7f8389",
+    "selectedColor": "#09bb07",
+    "backgroundColor": "#eee",
+    "borderStyle": "black",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "public/images/home.png",
+        "selectedIconPath": "public/images/home-active.png"
+      },
+      {
+        "pagePath": "pages/category/index",
+        "text": "分类",
+        "iconPath": "public/images/category.png",
+        "selectedIconPath": "public/images/category-active.png"
+      },
+      {
+        "pagePath": "pages/search/index",
+        "text": "发现",
+        "iconPath": "public/images/search.png",
+        "selectedIconPath": "public/images/search-active.png"
+      },
+      {
+        "pagePath": "pages/about/index",
+        "text": "我的",
+        "iconPath": "public/images/me.png",
+        "selectedIconPath": "public/images/me-active.png"
+      }
+    ]
+  },
+  "debug": true
+}

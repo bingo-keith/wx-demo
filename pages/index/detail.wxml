@@ -1,0 +1,5 @@
+<!--pages/index/detail.wxml-->
+<view class="">
+    <view class='detail-title'>{{detail.title}}</view>
+    <view class='detail-content'><text decode='true'>&emsp;&emsp;{{detail.content}}</text></view>
+</view>

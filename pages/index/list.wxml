@@ -1,0 +1,15 @@
+<scroll-view scroll-y style="height: 1288rpx;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+    <view class='sub-title-wrapper'>
+        <icon class="wx-icon-rect"></icon>
+        <text class='sub-title-title'>热文推荐</text>
+    </view>
+    <progress percent='0' stroke-width='2'></progress>
+    <block wx:for="{{content}}" wx:key="{{index}}">
+        <view class='item-wrapper' bindtap='changeToDetail' data-id="{{item['id']}}">
+            <view class='item-title' data-id="{{item['id']}}">{{item['title']}}</view>
+            <text class='item-content' data-id="{{item['id']}}">{{item['content']}}</text>
+            <view class="item-divider"></view>
+        </view>
+    </block>
+
+</scroll-view>

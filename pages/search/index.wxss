@@ -1,0 +1,31 @@
+/**index.wxss**/
+
+.search-container-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    padding: 30rpx 30rpx 10rpx 30rpx;
+    position: relative;
+    font-family: "Source Han Sans CN";
+    font-size: 34rpx;
+}
+
+.search-items-text {
+    position: absolute;
+    top: 35rpx;
+}
+
+.search-items-image {
+    width: 60rpx;
+    height: 60rpx;
+    margin-right: 30rpx;
+}
+
+.search-items-right {
+    position: absolute;
+    top: 40rpx;
+    right: 30rpx;
+    font-family: '黑体';
+    font-weight: bold;
+}
